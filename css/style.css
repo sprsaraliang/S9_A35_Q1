@@ -1,0 +1,39 @@
+/*20191009_S9A35 ：期末考「專業知識與技術」題目_Q1 Movie List with Genres\css*/
+
+
+/** 
+ * Homepage Style
+ * Standard Layout (all parts) for Little Homepage
+ * @author SaraLiang
+ * @copyright 2019 by the author
+ *
+ */
+.container{
+ width:90%;
+ max-width:1170px;
+}
+
+.btn.focus,
+.btn:focus {
+	box-shadow: 0.1px 0.1px 0.1px 0.1px rgba(0, 0, 0, 0.25);
+}
+
+.btn-custom {
+	min-width: 80px !important;
+	margin: 5px;
+}
+
+@media screen and (min-width:540px) {
+	.btn-custom {
+		width: 120px !important;
+			margin: 2px;
+	}
+}
+
+@media screen and (min-width:750px) {
+	.btn-custom {
+		width: 100% !important;
+					margin: 0px;
+
+	}
+}
